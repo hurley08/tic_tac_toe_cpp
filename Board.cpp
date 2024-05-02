@@ -11,7 +11,7 @@ Board:: Board(){
 
 } 
 
-bool checkWin(char board[3][3], char player){
+bool checkWin(Board$) char player){
     char inPlay[3][3] = board;
     return false;
 }

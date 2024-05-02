@@ -8,6 +8,7 @@ public:
     int count_x(char board);
     int count_o(char board);
     int count_e(char board);
+    void draw(char board)
 
 
 private:
