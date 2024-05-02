@@ -12,7 +12,7 @@ public:
 
 
 private:
-    char board[3][3];
+    char pieces[3][3];
     char currentPlayer[1];
     int turn = 0;
 };

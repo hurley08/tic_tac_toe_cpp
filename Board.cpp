@@ -11,23 +11,23 @@ Board:: Board(){
 
 } 
 
-bool checkWin(Board$) char player){
-    char inPlay[3][3] = board;
+bool checkWin(Board& board, char player){
+    char inPlay[3][3] = board.pieces;
     return false;
 }
 
-int count_x(char board){
-    char inPlay[3][3] = board;
+int count_x(Board& board,){
+    char inPlay[3][3] = board.pieces;
     return 0;
 }
 
-int count_o(char board){
-    char inPlay[3][3] = board;
+int count_o(Board& board,){
+    char inPlay[3][3] = board.pieces;
     return 0;
 }
 
-int count_e(char board){
-    char inPlay[3][3] = board;
+int count_e(Board& board,){
+    char inPlay[3][3] = board.pieces;
     return 0;
 }
 
